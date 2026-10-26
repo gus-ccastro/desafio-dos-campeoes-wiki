@@ -1,0 +1,57 @@
+site_name: Desafio dos Campeões — Regras
+site_description: Referência detalhada das regras, mecânicas, fórmulas e probabilidades do RPG de corridas no Telegram.
+site_url: https://gus-ccastro.github.io/desafio-dos-campeoes-wiki/
+repo_url: https://github.com/gus-ccastro/desafio-dos-campeoes-wiki
+repo_name: gus-ccastro/desafio-dos-campeoes-wiki
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+theme:
+  variant: classic
+  language: pt-BR
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: red
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Alternar para modo escuro
+    - scheme: slate
+      primary: red
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para modo claro
+
+nav:
+  - Início: index.md
+  - Fundamentos: fundamentos.md
+  - Temporada: temporada.md
+  - Fim de semana: fim-de-semana.md
+  - Chuva e pneus: chuva-pneus.md
+  - Progressão: progressao.md
+  - Probabilidades: probabilidades.md
+  - Críticos: criticos.md
+  - Versões: versoes.md
